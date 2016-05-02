@@ -9,10 +9,10 @@
 
 import { expect } from 'chai';
 import { describe, it } from 'mocha';
-import { StarWarsSchema } from './starWarsSchema.js';
-import { Source } from '../language/source';
-import { parse } from '../language/parser';
-import { validate } from '../validation/validate';
+import { StarWarsSchema } from './schema.js';
+import { Source } from '../../language/source';
+import { parse } from '../../language/parser';
+import { validate } from '../../validation/validate';
 
 
 /**

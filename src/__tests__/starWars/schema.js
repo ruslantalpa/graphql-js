@@ -15,9 +15,9 @@ import {
   GraphQLNonNull,
   GraphQLSchema,
   GraphQLString,
-} from '../type';
+} from '../../type';
 
-import { getFriends, getHero, getHuman, getDroid } from './starWarsData.js';
+import { getFriends, getHero, getHuman, getDroid } from './data.js';
 
 /**
  * This is designed to be an end-to-end test, demonstrating
